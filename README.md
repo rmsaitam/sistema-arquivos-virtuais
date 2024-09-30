@@ -73,6 +73,13 @@ SELECT * FROM dir_structure;
      ```
      cd  sistemas-arquivos-virtuais
      ```
+  3. Acessar o diretório docker/banco-dados-mysql e executar:
+     ```
+     cd docker/banco-dados-mysql
+     ```
+     ```
+     docker-compose up -d
+     ```    
   4. Build da aplicação no terminal, dentro do diretório acessado anteriormente:
      ```
      ./mvnw clean install
