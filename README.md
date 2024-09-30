@@ -10,8 +10,6 @@ API REST Gerenciamento de Diretórios e Arquivos Virtuais
 # Modelagem
 Tabela nodes (para representar diretórios e arquivos).
 
-Aqui, a estrutura será genérica, com uma coluna que diferencia entre diretório e arquivo.
-
 Cada entrada pode ter um parent_id que referencia o diretório pai, formando a estrutura hierárquica.
 
 ```
