@@ -78,7 +78,7 @@ SELECT * FROM dir_structure;
      ```
      docker-compose up -d
      ```    
-  4. Build da aplicação no terminal, dentro do diretório acessado anteriormente:
+  4. Build da aplicação no terminal, dentro do diretório acessado no item 2:
      ```
      ./mvnw clean install
      ```
